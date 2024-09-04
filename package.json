@@ -1,0 +1,35 @@
+{
+  "name": "download-blob",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "node build.js",
+    "dev": "node dev.js"
+  },
+  "keywords": [],
+  "author": "Alan",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.4",
+    "@types/jest": "^29.5.7",
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^8.46.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "^3.0.1",
+    "tsc-alias": "^1.8.8",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {}
+}

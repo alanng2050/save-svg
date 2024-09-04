@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "ESNext",
+    "target": "ES6",
+    "strict": true,
+    "lib": ["DOM"],
+    "removeComments": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "moduleResolution": "Bundler",
+    "declaration": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules", "./src/**/*.test.ts"]
+}
