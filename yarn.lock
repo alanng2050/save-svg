@@ -671,6 +671,11 @@
     lodash "^4.17.15"
     redent "^3.0.0"
 
+"@tinychange/save-blob@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@tinychange/save-blob/-/save-blob-1.0.2.tgz#eab181e7cf5b67f54665dca842bc54003381c8ae"
+  integrity sha512-5Iv4hFJAEI4Q8/xv0qlHTikLTW9ksS4eOqs3VD3zpB456AtavgsFTXposR9vcylxBcgypfRXPjcBuzwCIw0fGg==
+
 "@tootallnate/once@2":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-2.0.0.tgz#f544a148d3ab35801c1f633a7441fd87c2e484bf"

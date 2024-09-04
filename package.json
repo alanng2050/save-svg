@@ -1,8 +1,8 @@
 {
-  "name": "download-blob",
+  "name": "@tinychange/save-svg",
   "version": "1.0.1",
   "description": "",
-  "private": true,
+  "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -16,6 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "@testing-library/jest-dom": "^6.1.4",
+    "@tinychange/save-blob": "^1.0.2",
     "@types/jest": "^29.5.7",
     "@typescript-eslint/eslint-plugin": "^6.3.0",
     "@typescript-eslint/parser": "^6.3.0",
