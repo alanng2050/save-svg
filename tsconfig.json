@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-    "module": "ESNext",
+    "module": "Node16",
     "target": "ES6",
     "strict": true,
-    "lib": ["DOM"],
+    "lib": ["ES6", "DOM"],
     "removeComments": true,
     "noImplicitAny": false,
     "esModuleInterop": true,
-    "moduleResolution": "Bundler",
+    "moduleResolution": "Node16",
     "declaration": true,
     "baseUrl": ".",
     "paths": {
