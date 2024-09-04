@@ -1,4 +1,4 @@
-export const downloadBlob = async ({
+export const downloadBlob = ({
   blob,
   filename,
 }: {
